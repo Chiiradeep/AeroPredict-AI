@@ -1,0 +1,5 @@
+model,evaluation_target,mae,rmse,r2,test_engines
+Random Forest,capped_target,11.6223,16.516,0.8301,100
+Random Forest,true_uncapped_rul,12.6923,17.7186,0.8182,100
+XGBoost,capped_target,11.4164,16.1586,0.8374,100
+XGBoost,true_uncapped_rul,12.4864,17.3124,0.8264,100

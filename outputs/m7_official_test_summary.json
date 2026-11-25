@@ -1,0 +1,66 @@
+{
+  "project": "AeroPredict AI \u2014 NASA C-MAPSS FD001",
+  "milestone": 7,
+  "generated_utc": "2026-11-25T17:49:40.354553+00:00",
+  "evaluation_protocol": "Official FD001 final recorded cycle only; one prediction per test engine",
+  "test_engine_count": 100,
+  "model_training_target": "rul_capped_125",
+  "cap_cycles": 125,
+  "true_rul_exceeds_cap_count": 11,
+  "model_selected_before_official_test": "XGBoost",
+  "selection_rule": "Milestone 5: lowest RMSE on held-out training-engine validation; never choose from official test metrics",
+  "milestone_5_validation_metrics": {
+    "Random Forest": {
+      "mae": 9.5601,
+      "rmse": 14.5236,
+      "r2": 0.8788
+    },
+    "XGBoost": {
+      "mae": 9.8076,
+      "rmse": 14.3142,
+      "r2": 0.8823
+    }
+  },
+  "model_results": {
+    "Random Forest": {
+      "capped_target": {
+        "mae": 11.6223,
+        "rmse": 16.516,
+        "r2": 0.8301
+      },
+      "true_uncapped_rul": {
+        "mae": 12.6923,
+        "rmse": 17.7186,
+        "r2": 0.8182
+      },
+      "mean_signed_error_true": -0.2016,
+      "absolute_error_over_20_true": 23
+    },
+    "XGBoost": {
+      "capped_target": {
+        "mae": 11.4164,
+        "rmse": 16.1586,
+        "r2": 0.8374
+      },
+      "true_uncapped_rul": {
+        "mae": 12.4864,
+        "rmse": 17.3124,
+        "r2": 0.8264
+      },
+      "mean_signed_error_true": -0.389,
+      "absolute_error_over_20_true": 23
+    }
+  },
+  "feature_count": 130,
+  "feature_manifest_milestone": 3,
+  "quick_training_mode": false,
+  "limitations": [
+    "Test evaluation is one prediction at the last observed cycle of each NASA test engine (not every test cycle).",
+    "Models were fit on the original Milestone 5 train portion, not refit on all 100 training engines.",
+    "When trained on capped targets, capped-target errors are not equivalent to errors on true remaining physical life.",
+    "These test scores are an evaluation snapshot; after inspecting them, the official test set is no longer untouched.",
+    "Do not retune models, pick a winner, or repeatedly revise methodology based on official test performance.",
+    "NASA C-MAPSS is simulated data. Predictions are not aircraft maintenance or safety instructions.",
+    "Only load locally trusted joblib model files (pickle execution risk)."
+  ]
+}

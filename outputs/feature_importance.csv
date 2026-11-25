@@ -1,0 +1,187 @@
+model,feature,importance
+Random Forest,sensor_4_mean_5,0.46429454938659814
+Random Forest,cycle,0.12355025433151663
+Random Forest,sensor_11_mean_5,0.1186494853646756
+Random Forest,sensor_3_mean_20,0.05868767442873448
+Random Forest,sensor_9_mean_5,0.026829926225601704
+Random Forest,sensor_2_mean_20,0.016726662026437824
+Random Forest,sensor_15_mean_5,0.015074012687147227
+Random Forest,sensor_9,0.011632753481752465
+Random Forest,sensor_7_std_20,0.008253981915349057
+Random Forest,sensor_7_mean_5,0.008103708941386413
+Random Forest,sensor_9_mean_20,0.007298708462882515
+Random Forest,sensor_9_std_20,0.007282628777992638
+Random Forest,sensor_14_mean_20,0.007170734458180314
+Random Forest,sensor_21_mean_5,0.006586541886107074
+Random Forest,sensor_17_mean_20,0.006306694887462509
+Random Forest,sensor_14_std_20,0.006197860658612279
+Random Forest,sensor_14_mean_5,0.005425986799021511
+Random Forest,sensor_8_std_20,0.005262108698706128
+Random Forest,sensor_12_std_20,0.005133052957678662
+Random Forest,sensor_13_std_20,0.00472380094072172
+Random Forest,sensor_7_mean_20,0.004285339972147933
+Random Forest,sensor_13_mean_20,0.004072301102193292
+Random Forest,sensor_15_mean_20,0.0039449504188522186
+Random Forest,sensor_20_std_20,0.0036511393284860906
+Random Forest,sensor_4_mean_20,0.003640918387587136
+Random Forest,sensor_11_std_20,0.0034724413551723335
+Random Forest,sensor_15_std_20,0.0034427792282611482
+Random Forest,sensor_4_std_20,0.0033801641491118255
+Random Forest,sensor_2_std_20,0.003373099321273116
+Random Forest,sensor_2_mean_5,0.00334144261070292
+Random Forest,sensor_8_mean_20,0.0031784890277690267
+Random Forest,sensor_3_std_20,0.0031572315721910818
+Random Forest,sensor_17_std_20,0.0030178432900153053
+Random Forest,sensor_12_mean_5,0.0030152128356332026
+Random Forest,sensor_21_mean_20,0.0028609288866822172
+Random Forest,sensor_21_std_20,0.002856440505934157
+Random Forest,sensor_3_mean_5,0.002620173163106746
+Random Forest,sensor_20_mean_20,0.002609702488928289
+Random Forest,sensor_12_mean_20,0.00245342958031223
+Random Forest,sensor_11_mean_20,0.002184339188484639
+Random Forest,sensor_13_mean_5,0.0018069002130032179
+Random Forest,sensor_20_mean_5,0.0017521531906436556
+Random Forest,sensor_8_mean_5,0.0017194432057415926
+Random Forest,sensor_14,0.0014337775972973062
+Random Forest,sensor_17_mean_5,0.0008759064500577993
+Random Forest,sensor_7_std_5,0.0008026279090012654
+Random Forest,sensor_20_std_5,0.0007799187824377651
+Random Forest,sensor_21_std_5,0.0007035972884191064
+Random Forest,sensor_14_std_5,0.000687206779053998
+Random Forest,sensor_4_std_5,0.0006836265621118139
+Random Forest,sensor_9_std_5,0.000676872977045381
+Random Forest,sensor_3_std_5,0.0006557409324311446
+Random Forest,sensor_12_std_5,0.0006341673657459812
+Random Forest,sensor_8_std_5,0.0006331840616257944
+Random Forest,sensor_2_std_5,0.0006266105286906832
+Random Forest,sensor_11_std_5,0.0005830872875237557
+Random Forest,sensor_15_std_5,0.0005725212089185029
+Random Forest,sensor_13_std_5,0.0005015502098819084
+Random Forest,sensor_17_std_5,0.0003853825968966668
+Random Forest,sensor_12,0.00034330801131186476
+Random Forest,sensor_7,0.000299172883585619
+Random Forest,sensor_6_mean_20,0.00028079629452707253
+Random Forest,sensor_12_delta_5,0.00026732563679464886
+Random Forest,sensor_6_std_20,0.00025724466416209626
+Random Forest,sensor_15,0.00024292852872045314
+Random Forest,sensor_3,0.00024152004617774284
+Random Forest,sensor_11,0.00023017939469193891
+Random Forest,sensor_9_delta_5,0.00021958574760797716
+Random Forest,sensor_14_delta_5,0.00021740618168834664
+Random Forest,sensor_4_delta_5,0.0002149029103483034
+Random Forest,sensor_2,0.00020976171348385776
+Random Forest,setting_1,0.00020150256054953314
+Random Forest,sensor_21,0.00019190440128053765
+Random Forest,sensor_4,0.00018481397313658155
+Random Forest,sensor_21_delta_5,0.00018340244094722076
+Random Forest,sensor_15_delta_5,0.0001802013566806925
+Random Forest,sensor_7_delta_5,0.00017753933169846348
+Random Forest,sensor_20,0.00017529846031294613
+Random Forest,sensor_2_delta_5,0.0001739212089779997
+Random Forest,sensor_3_delta_5,0.0001662737780113518
+Random Forest,sensor_13_delta_5,0.0001561858830207576
+Random Forest,sensor_8,0.0001493773792271099
+Random Forest,sensor_11_delta_5,0.0001410038642243905
+Random Forest,sensor_13,0.00014074852487648863
+Random Forest,sensor_20_delta_5,0.00013240062627595118
+Random Forest,sensor_8_delta_5,0.00011740185808030087
+Random Forest,setting_2,9.231938146244316e-05
+Random Forest,sensor_17_delta_5,7.102634052573942e-05
+Random Forest,sensor_17,4.2824788303198626e-05
+Random Forest,sensor_6_mean_5,1.6949422762594626e-05
+Random Forest,sensor_6_std_5,1.6215210998638978e-05
+Random Forest,sensor_6_delta_5,7.47232708397749e-07
+Random Forest,sensor_6,4.108690159836709e-08
+XGBoost,sensor_4_mean_5,0.4362805485725403
+XGBoost,sensor_11_mean_5,0.1843540072441101
+XGBoost,sensor_15_mean_5,0.1126658022403717
+XGBoost,sensor_2_mean_5,0.03425779193639755
+XGBoost,sensor_3_mean_5,0.02541620098054409
+XGBoost,sensor_21_mean_5,0.023008238524198532
+XGBoost,sensor_9_mean_5,0.015699071809649467
+XGBoost,cycle,0.015534940175712109
+XGBoost,sensor_9,0.011688495986163616
+XGBoost,sensor_3_mean_20,0.009978045709431171
+XGBoost,sensor_7_mean_5,0.007090280298143625
+XGBoost,sensor_14_std_20,0.00622198823839426
+XGBoost,sensor_14_mean_5,0.004607554990798235
+XGBoost,sensor_17_mean_20,0.004398581571877003
+XGBoost,sensor_9_mean_20,0.004328297916799784
+XGBoost,sensor_9_std_20,0.004073355812579393
+XGBoost,sensor_17_mean_5,0.0040591261349618435
+XGBoost,sensor_14_mean_20,0.004047401249408722
+XGBoost,sensor_13_mean_5,0.0039173876866698265
+XGBoost,sensor_7_std_20,0.0035921246744692326
+XGBoost,sensor_15_mean_20,0.0035507252905517817
+XGBoost,sensor_20_mean_5,0.0035228589549660683
+XGBoost,sensor_12_mean_5,0.0031719005201011896
+XGBoost,sensor_13_std_20,0.003139057895168662
+XGBoost,sensor_8_mean_20,0.002917544450610876
+XGBoost,sensor_8_std_20,0.002896845806390047
+XGBoost,sensor_13_mean_20,0.002847533905878663
+XGBoost,sensor_12_std_20,0.0028003978077322245
+XGBoost,sensor_12,0.002689856570214033
+XGBoost,sensor_4_mean_20,0.002625877968966961
+XGBoost,sensor_6_std_20,0.002570123178884387
+XGBoost,sensor_8_mean_5,0.0025563996750861406
+XGBoost,sensor_6_mean_20,0.0025430333334952593
+XGBoost,sensor_7_mean_20,0.002255103550851345
+XGBoost,sensor_20_mean_20,0.0021847293246537447
+XGBoost,sensor_11_std_20,0.002134704729542136
+XGBoost,sensor_21_mean_20,0.002000487642362714
+XGBoost,sensor_11_mean_20,0.0019644058775156736
+XGBoost,sensor_12_mean_20,0.001827556872740388
+XGBoost,sensor_20_std_20,0.001731754862703383
+XGBoost,sensor_7,0.001667964388616383
+XGBoost,sensor_4_std_20,0.0016568144783377647
+XGBoost,sensor_2_mean_20,0.0016209386521950364
+XGBoost,sensor_17,0.0015836734091863036
+XGBoost,sensor_17_std_20,0.001524045830592513
+XGBoost,sensor_15_std_20,0.0014362969668582082
+XGBoost,sensor_11,0.0013459778856486082
+XGBoost,sensor_21_std_20,0.0013373177498579025
+XGBoost,sensor_3_std_20,0.0012387640308588743
+XGBoost,sensor_8,0.00120822386816144
+XGBoost,sensor_2_std_20,0.0010357695864513516
+XGBoost,sensor_20,0.0009257324272766709
+XGBoost,sensor_14,0.0009069544030353427
+XGBoost,sensor_13,0.0008995081298053265
+XGBoost,sensor_8_std_5,0.0007919759955257177
+XGBoost,sensor_21_std_5,0.0007504093809984624
+XGBoost,sensor_11_std_5,0.0007125124684534967
+XGBoost,sensor_20_std_5,0.0006486126221716404
+XGBoost,sensor_2,0.0006422005826607347
+XGBoost,sensor_7_std_5,0.0005981020512990654
+XGBoost,sensor_14_delta_5,0.0005489396280609071
+XGBoost,sensor_3,0.0005391038139350712
+XGBoost,sensor_14_std_5,0.0005328882252797484
+XGBoost,sensor_12_std_5,0.0005320420605130494
+XGBoost,sensor_9_delta_5,0.00047964759869500995
+XGBoost,sensor_15,0.0004766450438182801
+XGBoost,sensor_15_std_5,0.00046386237954720855
+XGBoost,sensor_13_std_5,0.0004578572406899184
+XGBoost,sensor_21_delta_5,0.000443504482973367
+XGBoost,sensor_4_std_5,0.000442854332504794
+XGBoost,sensor_3_std_5,0.00043333752546459436
+XGBoost,sensor_17_std_5,0.00043107770034112036
+XGBoost,sensor_12_delta_5,0.00043043220648542047
+XGBoost,sensor_20_delta_5,0.00042915725498460233
+XGBoost,sensor_2_std_5,0.00040271898615173995
+XGBoost,sensor_9_std_5,0.0003684756229631603
+XGBoost,sensor_3_delta_5,0.00031664888956584036
+XGBoost,sensor_2_delta_5,0.00030409498140215874
+XGBoost,sensor_4_delta_5,0.00029751003603450954
+XGBoost,sensor_7_delta_5,0.00029498885851353407
+XGBoost,sensor_4,0.0002798560890369117
+XGBoost,sensor_11_delta_5,0.00026738696033135056
+XGBoost,sensor_21,0.0002414687623968348
+XGBoost,sensor_15_delta_5,0.0002352527662878856
+XGBoost,sensor_13_delta_5,0.00019635110220406204
+XGBoost,sensor_8_delta_5,0.0001901781215565279
+XGBoost,setting_1,0.00011620898294495419
+XGBoost,setting_2,0.00010356940765632316
+XGBoost,sensor_17_delta_5,6.197402399266139e-05
+XGBoost,sensor_6,0.0
+XGBoost,sensor_6_mean_5,0.0
+XGBoost,sensor_6_std_5,0.0
+XGBoost,sensor_6_delta_5,0.0

@@ -1,0 +1,13 @@
+model,candidate,fold,fold_train_engines,fold_validation_engines,rmse,mae,r2
+Random Forest,RF / baseline,1,53,27,16.1607,11.185,0.8496
+Random Forest,RF / baseline,2,54,26,15.6173,10.8467,0.8592
+Random Forest,RF / baseline,3,53,27,18.6038,12.7472,0.8007
+Random Forest,RF / smoother,1,53,27,16.1334,11.1947,0.8502
+Random Forest,RF / smoother,2,54,26,15.7579,10.958,0.8567
+Random Forest,RF / smoother,3,53,27,18.5373,12.7664,0.8022
+XGBoost,XGB / baseline,1,53,27,15.8267,11.1297,0.8558
+XGBoost,XGB / baseline,2,54,26,15.2785,10.6917,0.8653
+XGBoost,XGB / baseline,3,53,27,18.5628,12.9458,0.8016
+XGBoost,XGB / conservative,1,53,27,15.7393,11.1703,0.8574
+XGBoost,XGB / conservative,2,54,26,15.3488,10.854,0.864
+XGBoost,XGB / conservative,3,53,27,18.0065,12.8174,0.8133

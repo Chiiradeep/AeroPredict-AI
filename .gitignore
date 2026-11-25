@@ -1,0 +1,15 @@
+# Local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+.vscode/
+.env
+.env.*
+.streamlit/secrets.toml
+*.log
+# Data and model artifacts in THIS deployment copy are intentionally included.
+# Do not re-add blanket rules ignoring models/, outputs/, or data/raw/.

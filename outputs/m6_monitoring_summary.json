@@ -1,0 +1,49 @@
+{
+  "project": "AeroPredict AI / NASA FD001",
+  "milestone": 6,
+  "generated_utc": "2026-11-25T17:37:12.960996+00:00",
+  "source": "Milestone 5 fixed engine-level validation holdout; NOT NASA official test data",
+  "model_source": "Milestone 5 locally trained optimized models; precomputed inference for fast Streamlit replay",
+  "target": "rul_capped_125",
+  "target_cap": 125,
+  "chosen_default_model": "XGBoost",
+  "quick_mode": false,
+  "validation_engines": [
+    1,
+    5,
+    11,
+    13,
+    19,
+    23,
+    31,
+    32,
+    34,
+    40,
+    45,
+    46,
+    54,
+    71,
+    74,
+    77,
+    78,
+    81,
+    84,
+    91
+  ],
+  "row_count": 4070,
+  "sensors": [
+    "sensor_2",
+    "sensor_4",
+    "sensor_11",
+    "sensor_15",
+    "sensor_21"
+  ],
+  "guardrails": [
+    "Only already-reviewed M5 validation histories are replayed; no independent test evidence is claimed.",
+    "Sensor plots show observations through the selected cycle, not afterward.",
+    "Actual validation RUL is available only behind an explicit reveal control.",
+    "Illustrative urgency thresholds are not calibrated failure probabilities or maintenance instructions.",
+    "This is offline historical replay, not real-time engine telemetry.",
+    "NASA official test data and labels remain reserved for Milestone 7."
+  ]
+}
